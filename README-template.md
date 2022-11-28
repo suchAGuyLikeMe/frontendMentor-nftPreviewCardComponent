@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: - Live Site URL: (https://suchaguylikeme-nftpreviewcardcomponent.pages.dev)
+-   Live Site URL: - Live Site URL: (https://suchaguylikeme-nftcardcomponent.pages.dev)
 
 ## My process
 
