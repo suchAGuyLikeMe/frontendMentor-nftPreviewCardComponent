@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: (https://www.frontendmentor.io/solutions/nft-card-component-S194oQk1SZ)
 -   Live Site URL: - Live Site URL: (https://suchaguylikeme-nftcardcomponent.pages.dev)
 
 ## My process
