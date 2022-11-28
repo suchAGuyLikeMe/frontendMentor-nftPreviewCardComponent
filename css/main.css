@@ -44,8 +44,6 @@
     --font-weight-300: 300;
     --font-weight-400: 400;
     --font-weight-600: 600;
-
-    /*- Family: [Outfit](https://fonts.google.com/specimen/Outfit)*/
 }
 
 * {
@@ -56,25 +54,29 @@
 
 a {
     text-decoration: none;
+    color: var(--neutral-white);
 }
 
 body,
 main {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+h1,
+p,
+ul,
+.line{
+    margin-top: 0.5rem;
 }
 
 body {
-    background-color: var(--neutral-main-clr);
     width: 100vw;
     height: 100vh;
+    background-color: var(--neutral-main-clr);
+    font-family: var(--font-family);
     font-size: var(--font-size);
-}
-
-main {
-    width: 100%;
-    height: 100%;
 }
 
 section,
@@ -82,27 +84,18 @@ section,
     border-radius: 1rem;
 }
 
-.nft-name,
-.creator {
-    color: var(--neutral-white);
-}
-
 section {
-    max-width: 90%;
-    width: 21.09375rem; /*337.5px*/
-    height: 33.349375rem; /*533.58px*/
+    max-width: 50%;
     background-color: var(--neutral-card-clr);
     color: var(--primary-soft-blue);
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .container {
-    max-width: 100%;
-    width: 19.09375rem; /*305.5px*/
-    height: 18.75rem; /*300px*/
+    width: 100%;
+    height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -120,27 +113,22 @@ section {
 }
 
 .nft-picture {
+    display: block;
     width: 100%;
-    height: 100%;
 }
 
-.nft-name {
-    margin-top: 0.5rem;
+h1 {
+    font-weight: var(--font-weight-400);
 }
 
 .nft-description {
+    max-width: 25ch;
     line-height: 1.5;
-    margin-top: 0.5rem;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    align-items: center;
-}
-
-.price-date-list {
-    margin-top: 0.5rem;
 }
 
 .price-list-item::before,
@@ -166,7 +154,6 @@ ul {
 .price-list-item,
 .date-list-item {
     width: 50%;
-    height: 100%;
 }
 
 .price-list-item {
@@ -182,22 +169,15 @@ ul {
     background-color: var(--neurtral-line-clr);
     width: 100%;
     height: 0.1rem;
-    margin-top: 0.5rem;
-}
-
-.author {
-    margin-top: 0.5rem;
 }
 
 .creator-picture {
     width: 2rem;
     height: 2rem;
+    float: left;
     border-radius: 50%;
     outline: 0.5px solid var(--neutral-white);
-}
-
-.author-paragraph {
-    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .creator {
@@ -220,4 +200,10 @@ hover and active states
 .creator:active {
     color: var(--primary-cyan);
     transition: all 0.5s ease;
+}
+
+@media screen and (width < 31.25em){
+    section{
+        max-width: 90%;
+    }
 }

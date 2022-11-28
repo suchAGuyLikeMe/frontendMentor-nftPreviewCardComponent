@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Frontend Mentor | NFT Preview Card Component</title>
 
-        <!--tab icon-->
-        <link rel="icon" type="image/png" href="img/favicon-32x32.png" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | NFT Preview Card Component</title>
 
-        <!--css-->
-        <link rel="stylesheet" href="css/main.css" />
+    <!--tab icon-->
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png">
 
-        <!--font-->
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Outfit" />
-    </head>
-    <body>
-        <main>
-            <section>
-                <div class="container">
-                    <img
-                        src="img/image-equilibrium.jpg"
-                        alt="Equilibrium NFT"
-                        title="Equilibrium NFT"
-                        class="nft-picture" />
+    <!--css-->
+    <link rel="stylesheet" href="css/main.css">
 
-                    <div class="overlay"></div>
-                </div>
+    <!--font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
+</head>
 
-                <a href="#">
-                    <h1 class="nft-name">Equilibrium #3429</h1>
-                </a>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="overlay"></div>
+                <img src="img/image-equilibrium.jpg" alt="Equilibrium NFT" class="nft-picture">
 
-                <p class="nft-description">
-                    Our Equilibrium collection promotes balance and calm.
-                </p>
+            </div>
 
-                <ul class="price-date-list">
-                    <li class="price-list-item">0.041 eth</li>
-                    <li class="date-list-item">3 days left</li>
-                </ul>
+            <h1><a href="#" class="nft-name">Equilibrium #3429</a></h1>
 
-                <span class="line"></span>
+            <p class="nft-description">
+                Our Equilibrium collection promotes balance and calm.
+            </p>
 
-                <ul class="author">
-                    <li>
-                        <img
-                            src="img/image-avatar.png"
-                            alt=""
-                            aria-hidden="true"
-                            class="creator-picture" />
-                    </li>
-                    <li>
-                        <p class="author-paragraph">
-                            Creation of
-                            <a href="#" class="creator">jules wyvern</a>
-                        </p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </body>
+            <ul class="price-date-list">
+                <li class="price-list-item">0.041 eth</li>
+                <li class="date-list-item">3 days left</li>
+            </ul>
+
+            <span class="line"></span>
+
+            <p class="creator-paragraph">
+                <img src="img/image-avatar.png" alt="" aria-hidden="true" class="creator-picture">
+                Creation of
+                <a href="#" class="creator">jules wyvern</a>
+            </p>
+        </section>
+    </main>
+</body>
+
 </html>

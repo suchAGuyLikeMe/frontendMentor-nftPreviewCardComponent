@@ -31,17 +31,11 @@ Users should be able to:
 
 -   tablet
     ![tablet ipad air](screenshots/tablet-ipad-air.PNG)
-    ![tablet ipad pro](screenshots/tablet-ipad-pro.PNG)
-    ![tablet nest hub part one](screenshots/tablet-nest-hub-part-one.PNG)
-    ![tablet nest hub part two](screenshots/tablet-nest-hub-part-two.PNG)
     ![tablet nest hub max](screenshots/tablet-nest-hub-max.PNG)
-    ![tablet google surface pro 7](screenshots/tablet-surface-pro-7.PNG)
 
 -   mobile
-    ![mobile](screenshots/mobile.PNG)
-    ![mobile iphone se scrollable part one](screenshots/mobile-iphone-se-part-one.PNG)
-    ![mobile iphone se scrollable part two](screenshots/mobile-iphone-se-part-two.PNG)
-    ![mobile iphone se scrollable part three](screenshots/mobile-iphone-se-part-three.PNG)
+    ![mobile iphone se ](screenshots/mobile-iphone-se.PNG)
+    ![mobile galaxy fold](screenshots/mobile-galaxy-fold.PNG)
 
 ### Links
 
